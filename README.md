@@ -29,20 +29,20 @@ To download xampp, you can go here: https://www.apachefriends.org/download.html
 
 I forgot exactly how I made the project (I made this around 6 months ago, today is June 21, 2024) but I remember trying to download a jdbc driver for this. You can also check the following tutorials I found in my YouTube history.
 
-https://youtu.be/0fsdIYiU0fo?si=dN3IvFlbcQ36PUEh - this is my starting point to make the food ordering system. It originally has GUI but I converted it to console and made a lot of changes.
+https://youtu.be/0fsdIYiU0fo?si=dN3IvFlbcQ36PUEh - this tutorial by **Stephen Yecyec** is my starting point to make the food ordering system. It originally has GUI but I converted it to console and made a lot of changes.
 
 If you follow this video and the other parts (I believe there are part 2 and 3), you will know how they used xampp to create the database and the tables.
 
-https://youtu.be/i0c1b_LK5WQ?si=sJ4qq7PFRKO48VVM - How to connect JDBC - Java App with MYSQL
+https://youtu.be/i0c1b_LK5WQ?si=sJ4qq7PFRKO48VVM - How to connect JDBC - Java App with MYSQL tutorial by **Tuitions Tonight**
 
 ### Tables and Columns in the database
 The following table and column names is what I remember creating in the database.
-Format: 
-**table_name** : description of the table
-- column_name1 (data_type , primary key, not null, unique, auto_increment)
-- column_name2, ...
-- ...
-- ...
+- Format: 
+  - **table_name** : description of the table
+    - column_name1 (data_type , primary key, not null, unique, auto_increment)
+    - column_name2, ...
+    - ...
+    - ...
 
 **tbluser** : table for all the users
 - user_id(int, primary key, not null, auto_increment)
