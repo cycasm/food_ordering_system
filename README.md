@@ -39,44 +39,44 @@ https://youtu.be/i0c1b_LK5WQ?si=sJ4qq7PFRKO48VVM - How to connect JDBC - Java Ap
 The following table and column names is what I remember creating in the database.
 Format: 
 **table_name** : description of the table
- column_name1 (data_type , primary key, not null, unique, auto_increment)
- column_name2, ...
- ...
- ...
+- column_name1 (data_type , primary key, not null, unique, auto_increment)
+- column_name2, ...
+- ...
+- ...
 
 **tbluser** : table for all the users
-user_id(int, primary key, not null, auto_increment)
-username (varchar, not null, unique)
-password (varchar, not null)
-first_name (varchar, not null)
-last_name (varchar, not null)
-email (varchar)
+- user_id(int, primary key, not null, auto_increment)
+- username (varchar, not null, unique)
+- password (varchar, not null)
+- first_name (varchar, not null)
+- last_name (varchar, not null)
+- email (varchar)
 
 **appetizer** : appetizer foods menu
-product_id (int, primary key, not null, auto_increment)
-product_name (varchar, not null)
-price (double, not null)
+- product_id (int, primary key, not null, auto_increment)
+- product_name (varchar, not null)
+- price (double, not null)
 
 **mainCourse** : main course foods menu
-product_id (int, primary key, not null, auto_increment)
-product_name (varchar, not null)
-price (double, not null)
+- product_id (int, primary key, not null, auto_increment)
+- product_name (varchar, not null)
+- price (double, not null)
 
 **desserts** : desserts foods menu
-product_id (int, primary key, not null, auto_increment)
-product_name (varchar, not null)
-price (double, not null)
+- product_id (int, primary key, not null, auto_increment)
+- product_name (varchar, not null)
+- price (double, not null)
 
 **drinks** : drinks foods menu
-product_id (int, primary key, not null, auto_increment)
-product_name (varchar, not null)
-price (double, not null)
+- product_id (int, primary key, not null, auto_increment)
+- product_name (varchar, not null)
+- price (double, not null)
 
 **tbltemp_order** : table where all foods added to the user's order are placed
-product_name (varchar, not null)
-price_each (double, not null)
-quantity (int, not null)
-subtotal_price (double, not null)
+- product_name (varchar, not null)
+- price_each (double, not null)
+- quantity (int, not null)
+- subtotal_price (double, not null)
 
 ### Suggestions we got during presentation that I remember
 - Separating the full_name into first_name and last_name (which I already changed right after the presentation)
